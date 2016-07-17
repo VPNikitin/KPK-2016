@@ -95,5 +95,5 @@ def init_main_window():
 if __name__=="__main__":
     init_main_window()
     init_ball_catch_game()
-    root.mainloop()         # запускаем главный исполнитель
+    root.mainloop()         # запускаем исполнитель
     print("Приходите играть ещё!")
