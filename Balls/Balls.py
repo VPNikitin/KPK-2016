@@ -52,7 +52,7 @@ def create_random_ball():
     x = randint(0, int(canvas['width']) - 2*R -1)
     y = randint(0, int(canvas['height']) - 2*R -1)
     # рисуем шарик и запоминаем его номер в num_oval
-    num_oval = canvas.create_oval(x, y, x+2*R, y+2*R, width=1, fill=random_color())
+    num_oval = canvas.create_oval(x, y, x+2*R, y+2*R, width=0, fill=random_color())
     dx = randint(-2, 2)
     dy = randint(-2, 2)
     # запоминаем идентификатор, вектор и радиус движения нового шарика
